@@ -46,5 +46,6 @@ def likes():
 def final():
     return render_template('page6_final.html')
 
-if __name__ == '__main__':
-    app.run(debug=True)
+# if __name__ == '__main__':
+#     app.run(debug=True)
+
