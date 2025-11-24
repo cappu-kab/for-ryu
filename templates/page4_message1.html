@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>🎁 From Me to You</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/wishes.css') }}">
+</head>
+
+<body>
+    <div class="wish-container">
+        <h1 class="title">Our Wishes for the Future</h1>
+        <div class="floating-wishes">
+            <div class="wish">To be together until we grow old</div>
+            <div class="wish">To take care of the garden together</div>
+            <div class="wish">To travel around the world together</div>
+            <div class="wish">To support each other's dreams</div>
+            <div class="wish">To be happy and laugh together every day</div>
+            <div class="wish">To be each other's safe place always</div>
+            <div class="wish">Love each other forever.</div>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="{{ url_for('memory') }}" class="btn">⬅ Back</a>
+            <a href="{{ url_for('message2') }}" class="btn">Next ➡</a>
+        </div>
+    </div>
+
+    <!-- Floating decorative stars -->
+    <span class="star">✩</span>
+    <span class="star">✩</span>
+    <span class="star">✩</span>
+    <span class="star">✩</span>
+    <span class="star">✩</span>
+</body>
+
+</html>
